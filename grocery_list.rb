@@ -12,3 +12,8 @@ def create_shopping_list
   hash = { 'title' => 'Grocery List', 'items' => Hash.new }
   return hash
 end
+
+# create a method called add_list_items that returns an array.
+def add_list_items
+  array = []
+end
