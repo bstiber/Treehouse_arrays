@@ -16,3 +16,17 @@ hash = { "name" => "Bread", "quantity" => 1, "calories" => 100 }
 hash = { "name" => "Bread", "quantity" => 1, "calories" => 100 }
 hash.has_key?("calories")
 food = true
+
+grocery_item = { "item" => "Bread", "quantity" => 1, "brand" => "Treehouse Bread Company" }
+grocery_item.has_value?("Bread")
+grocery_item.store("food", true)
+
+# hash.values_at("quantity", "brand") => example using the values_at function.
+
+
+grocery_item = { "item" => "Bread", "quantity" => 1, "brand" => "Treehouse Bread Company" }
+grocery_item.has_value?("Bread")
+grocery_item.store("food", true)
+
+# Using the values_at method, create an array called grocery_list with the value of the
+# grocery_item hash at the "item" key.
