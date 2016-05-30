@@ -17,3 +17,11 @@ end
 def add_list_items
   array = []
 end
+
+# Modify the "create_shopping_list" method to return a hash with the following keys and values:
+# 'title': A string with the value "Grocery List"
+# 'items': An empty array
+
+def create_shopping_list
+  hash = {'title' => 'Grocery List', 'items' => []}
+end
